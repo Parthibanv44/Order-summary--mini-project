@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(231, 244, 255);
+    background-image: url(/images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-family: sans-serif;
+}
+.container{
+    width: 450px;
+    margin: 2rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 20px;
+}
+.img-div img{
+    border-radius: 20px 20px 0 0;
+    margin-bottom: 1rem;
+}
+.title-div{
+    margin:1rem;
+}
+.title-div h2{
+    font-size: 30px;
+}
+.para-div p{
+    text-align: center;
+    line-height: 1.5rem;
+    padding: 0 2rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    opacity: .8;
+}
+.plan-div{
+    display: flex;
+    flex-direction: row;
+    background: #f5f5f5;
+    border-radius: 10px;
+    margin: 1rem;
+}
+.plan-div img{
+    margin: 1rem;
+}
+.plan-div .plan-div-p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 1.7rem;
+    margin-right: 5rem;
+}
+.plan-div a{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    color: blue;
+    margin: 1rem;
+}
+.plan-div a:hover{
+    text-decoration: none;
+    opacity: .7;
+}
+.payment-div button{
+    height: 40px;
+    width: 330px;
+    background: blue;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    margin: 1rem;
+    box-shadow: 0px 15px 15px #ddddf1;
+}
+.payment-div button:hover{
+    background: rgb(95, 95, 209);
+    cursor: pointer;
+}
+.cancel-div button{
+    margin: 1rem 1rem 2rem 1rem;
+    background: transparent;
+    color: #7b80b3;
+    border: none;
+    font-weight: bold;
+}
+.cancel-div button:hover{
+    cursor: pointer;
+    color: #000;
+}
